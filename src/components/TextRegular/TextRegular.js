@@ -7,6 +7,8 @@ export const TextRegular = styled.p`
   line-height: 1.6;
   max-width: ${({ headerText }) => (headerText ? "35rem" : "")};
   margin-bottom: ${({ headerText }) => (headerText ? "7rem" : "")};
+  color: ${({ darkBg }) => (darkBg ? "var(--color-light)" : "")};
+  max-width: ${({ galleryText }) => (galleryText ? "32rem" : "")};
 
   @media screen and (max-width: 768px) {
     font-size: ${({ headerText }) => (headerText ? "1.8rem" : "")};
