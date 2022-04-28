@@ -10,6 +10,12 @@ export const TextRegular = styled.p`
   color: ${({ darkBg }) => (darkBg ? "var(--color-light)" : "")};
   max-width: ${({ galleryText }) => (galleryText ? "32rem" : "")};
 
+  &.footer-text-regular {
+    grid-column: 4/9;
+    font-size: 1.8rem;
+    color: inherit;
+  }
+
   @media screen and (max-width: 768px) {
     font-size: ${({ headerText }) => (headerText ? "1.8rem" : "")};
     margin-bottom: ${({ headerText }) => (headerText ? "5rem" : "")};
