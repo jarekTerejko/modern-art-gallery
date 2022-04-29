@@ -14,6 +14,14 @@ export const TextRegular = styled.p`
     grid-column: 4/9;
     font-size: 1.8rem;
     color: inherit;
+
+    @media screen and (max-width: 700px) {
+      grid-column: 5/10;
+    }
+
+    @media screen and (max-width: 560px) {
+      grid-column: 1/2;
+    }
   }
 
   @media screen and (max-width: 768px) {
