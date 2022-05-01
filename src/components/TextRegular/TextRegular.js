@@ -24,6 +24,10 @@ export const TextRegular = styled.p`
     }
   }
 
+  &.location-text-regular {
+    margin-bottom: 2rem;
+  }
+
   @media screen and (max-width: 768px) {
     font-size: ${({ headerText }) => (headerText ? "1.8rem" : "")};
     margin-bottom: ${({ headerText }) => (headerText ? "5rem" : "")};

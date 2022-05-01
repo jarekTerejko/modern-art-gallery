@@ -1,7 +1,9 @@
+import LocationDetails from "../components/LocationDetails";
+
 const Location = () => {
   return (
     <>
-      Location
+      <LocationDetails />
     </>
   );
 };
