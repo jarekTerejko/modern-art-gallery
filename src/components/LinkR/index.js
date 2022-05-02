@@ -8,7 +8,11 @@ import {
 const LinkRouter = ({ pathname, text, src, arrowRight, arrowLeft }) => {
   return (
     <LinkRouterWrapper to={pathname}>
-      {arrowLeft ? <ImageEl src={src} /> : null}
+      {arrowLeft ? (
+        <LinkRouterImgBg>
+          <ImageEl src={src} />
+        </LinkRouterImgBg>
+      ) : null}
       <LinkRouterTextBg>{text}</LinkRouterTextBg>
       {arrowRight ? (
         <LinkRouterImgBg>
