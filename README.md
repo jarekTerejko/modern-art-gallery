@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- [GitHub](https://github.com/jarekTerejko/arch-studio-multi-page-website)
+- [GitHub](https://github.com/jarekTerejko/modern-art-gallery)
 - [Live Site URL](https://modern-art-gallery-terejkodev.netlify.app)
 
 ## My process
