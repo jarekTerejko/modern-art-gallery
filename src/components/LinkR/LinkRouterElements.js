@@ -7,6 +7,24 @@ export const LinkRouterWrapper = styled(Link)`
   text-decoration: none;
   display: inline-flex;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, #fff, transparent);
+    transition: 0.3s transform;
+  }
+  
+  &:hover::after {
+    transform: translateX(100%);
+  }
 `;
 
 export const LinkRouterTextBg = styled.span`
